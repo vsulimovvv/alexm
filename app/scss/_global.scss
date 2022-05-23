@@ -406,3 +406,38 @@ input[type='file'] {
     }
   }
 }
+.counter {
+  width: 130px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px;
+  background-color: #ffffff;
+  border-radius: 5px;
+
+  &__btn {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: rgba(0, 105, 48, 0.1);
+    }
+  }
+
+  &__input {
+    width: 50px;
+    height: 35px;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    text-align: center;
+    outline: transparent;
+    font-size: 15px;
+  }
+
+}
