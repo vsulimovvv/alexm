@@ -16,6 +16,12 @@
     }
   }
 
+  &__logo {
+    @include breakpointsMaxW($bp-768) {
+      width: 130px;
+    }
+  }
+
   &__top {
     transition: 200ms ease;
     padding: 15px 0;
@@ -35,7 +41,11 @@
   &__middle {
     border-bottom: 1px solid #edf2f4;
     transition: 200ms ease;
+    padding: 20px 0;
 
+    @include breakpointsMaxW($bp-768) {
+      padding: 10px 0;
+    }
     &-inner {
       display: flex;
       align-items: center;
@@ -43,6 +53,7 @@
       gap: 20px;
     }
   }
+  
   &__bottom {
     padding: 14px 0;
     border-bottom: 1px solid #edf2f4;
@@ -51,9 +62,6 @@
     @include breakpointsMaxW($bp-991) {
       display: none;
     }
-  }
-  &__middle {
-    padding: 20px 0;
   }
 
   &__toggle {

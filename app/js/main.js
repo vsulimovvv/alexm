@@ -48,6 +48,25 @@ window.addEventListener('DOMContentLoaded', () => {
 
   // * ===== Slider
   (function sliderWorks() {
+    const sliderEl = document.querySelectorAll('.advice__slider');
+    sliderEl.forEach((el) => {
+      new Swiper(el, {
+        pagination: {
+          el: document.querySelector('.advice__content .swiper-pagination'),
+          type: 'progressbar',
+        },
+        slidesPerView: 'auto',
+        spaceBetween: 15,
+        navigation: {
+          nextEl: document.querySelector('.advice__slider .swiper-button-next'),
+          prevEl: document.querySelector('.advice__slider .swiper-button-prev'),
+        },
+      });
+    });
+  })();
+
+  // * ===== Slider
+  (function sliderWorks() {
     const sliderEl = document.querySelectorAll('.new-products__slider');
     sliderEl.forEach((el) => {
       new Swiper(el, {
@@ -128,19 +147,24 @@ window.addEventListener('DOMContentLoaded', () => {
   //* Change Background Header
   function scrollHeader() {
     const nav = document.querySelector('header');
+    const breadcrumbs = document.querySelector('.breadcrumbs');
 
-    if (this.scrollY >= 10) {
+    if (this.scrollY >= 150) {
       nav.classList.add('scroll-header');
+      breadcrumbs.style.marginTop = 250 + 'px';
     } else {
       nav.classList.remove('scroll-header');
+      breadcrumbs.style.marginTop = 25 + 'px';
     }
   }
   window.addEventListener('scroll', scrollHeader);
 
   // ! Change
   const header = document.querySelector('header');
-  if (window.pageYOffset >= 10) {
+  const breadcrumbs = document.querySelector('.breadcrumbs');
+  if (window.pageYOffset >= 150) {
     header.classList.add('scroll-header');
+    breadcrumbs.style.marginTop = 250 + 'px';
   }
 
   // * ===== Show Menu
