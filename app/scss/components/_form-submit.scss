@@ -1,0 +1,55 @@
+.form-submit {
+  display: grid;
+  gap: 15px;
+
+  &__group {
+    height: 58px;
+
+    &--textarea {
+      height: 115px;
+    }
+
+    @include breakpointsMaxW($bp-768) {
+      height: 48px;
+    }
+  }
+
+  &__input {
+    width: 100%;
+    height: 100%;
+    padding: 20px 23px;
+    border: 1px solid #d7d7d7;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 1;
+
+    @include breakpointsMaxW($bp-991) {
+      font-size: 18px;
+      padding: 10px 15px;
+    }
+
+    @include breakpointsMaxW($bp-768) {
+      font-size: 16px;
+    }
+
+    &::placeholder {
+      color: #6f6f6f;
+    }
+  }
+
+  &__btn {
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 10px;
+    @include breakpointsMaxW($bp-768) {
+      font-size: 16px;
+      padding: 20px 10px;
+    }
+  }
+
+  .checkbox {
+    margin: 15px 0;
+  }
+}

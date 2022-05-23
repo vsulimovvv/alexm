@@ -1,0 +1,28 @@
+.payment-methods {
+  @include adaptive-value('padding-top', 70, 40, 1);
+  padding-bottom: 20px;
+
+  &__title {
+    @include fz30();
+    text-align: center;
+    @include adaptive-value('margin-bottom', 40, 30, 1);
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    @include breakpointsMaxW($bp-991) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include breakpointsMaxW($bp-768) {
+      gap: 20px;
+    }
+
+    @include breakpointsMaxW($bp-576) {
+      grid-template-columns: 1fr;
+    }
+  }
+}

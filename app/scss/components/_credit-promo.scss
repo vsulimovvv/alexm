@@ -1,0 +1,17 @@
+.credit-promo {
+  @include adaptive-value('padding-top', 40, 30, 1);
+  @include adaptive-value('padding-bottom', 70, 40, 1);
+
+  &__title {
+    @include fz35();
+    margin-bottom: 30px;
+  }
+
+  &__preview {
+    height: 270px;
+    width: 100%;
+    @include adaptive-value('height', 270, 150, 1);
+    @include background(cover);
+    border-radius: 10px;
+  }
+}

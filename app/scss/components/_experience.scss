@@ -1,0 +1,95 @@
+.experience {
+  @include adaptive-value('padding-top', 40, 30, 1);
+  @include adaptive-value('padding-bottom', 70, 40, 1);
+  &__title {
+    @include adaptive-value('font-size', 40, 25, 1);
+    margin-bottom: 30px;
+    font-weight: 800;
+    line-height: 1.25;
+  }
+
+  &__text {
+    font-size: 18px;
+
+    @include breakpointsMaxW($bp-768) {
+      font-size: 16px;
+    }
+
+    p {
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  &__list {
+    display: grid;
+    gap: 10px;
+    margin-top: 20px;
+    @include adaptive-value('margin-bottom', 60, 30, 1);
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+
+    @include breakpointsMaxW($bp-container) {
+      gap: 30px;
+    }
+
+    @include breakpointsMaxW($bp-991) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__left {
+    @include breakpointsMaxW($bp-991) {
+      grid-row: 2/3;
+    }
+
+    .experience__text {
+      font-size: 24px;
+      font-weight: 500;
+      color: #4c4c4c;
+      @include adaptive-value('margin-bottom', 50, 30, 1);
+      @include adaptive-value('font-size', 24, 20, 1);
+    }
+
+    .experience__preview {
+      height: 690px;
+      width: 100%;
+      @include background(cover);
+      @include adaptive-value('height', 690, 320, 1);
+      @include adaptive-value('margin-bottom', 85, 40, 1);
+    }
+  }
+
+  &__right {
+    .experience__preview {
+      height: 505px;
+      width: 100%;
+      @include background(cover);
+
+      @include adaptive-value('height', 505, 280, 1);
+    }
+  }
+
+  &__btns {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    @include breakpointsMaxW($bp-576) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__btn {
+    font-size: 17px;
+    font-weight: 400;
+    width: 200px;
+    padding: 17px;
+  }
+}

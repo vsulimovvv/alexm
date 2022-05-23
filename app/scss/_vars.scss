@@ -1,0 +1,21 @@
+// Color
+:root {
+  --color-black: #000;
+  --color-white: #fff;
+
+  --color-dark: #373737;
+  --color-bg: #fffbf6;
+  --color-accent: #006930; // 0, 105, 48
+  --color-gray: #6b6b6b;
+}
+
+// * breakpointsMaxW
+$bp-container: 1300px;
+$bp-991: 991.98px;
+$bp-768: 767.98px;
+$bp-576: 576px;
+$bp-360: 360.98px;
+
+// *=== Fonts
+$TTCommons: 'TT Commons';
+$Oswald: 'Oswald';

@@ -1,0 +1,862 @@
+<section class="categories">
+  <div class="container">
+    <div class="categories__top">
+      <h2 class="categories__title">Диваны</h2>
+      <div class="categories__sort">
+        <span>Сортировать</span>
+        <select class="select">
+          <option value="1">По возрастанию</option>
+          <option value="2">По убыванию</option>
+          <option value="3">По скидку</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="categories__wrapper">
+      <div class="categories__side side">
+        <div class="side__top">
+          <div class="side__box accordion">
+            <button class="side__control accordion__control">
+              Мягкая мебель
+            </button>
+            <div class="side__content accordion__content">
+              <ul class="side__list">
+                <li class="side__item">
+                  <a class="side__link side__link--dropdown" href="#">
+                    Диваны в гостиную
+                  </a>
+                </li>
+                <li class="side__item">
+                  <a class="side__link side__link--dropdown" href="#">
+                    Диваны-кровати
+                  </a>
+                </li>
+                <li class="side__item">
+                  <a class="side__link side__link--dropdown" href="#">
+                    Кушетки и тахты
+                  </a>
+                </li>
+                <li class="side__item">
+                  <a class="side__link side__link--dropdown" href="#">
+                    Мини-диваны
+                  </a>
+                </li>
+                <li class="side__item">
+                  <a class="side__link side__link--dropdown" href="#">
+                    Офисные диваны
+                  </a>
+                </li>
+                <li class="side__item">
+                  <a class="side__link side__link--dropdown" href="#">
+                    Детские диваны
+                  </a>
+                </li>
+                <li class="side__item">
+                  <a class="side__link side__link--dropdown" href="#">
+                    Диваны в гостиную
+                  </a>
+                </li>
+                <li class="side__item">
+                  <a class="side__link side__link--dropdown" href="#">
+                    Диваны-кровати
+                  </a>
+                </li>
+                <li class="side__item">
+                  <a class="side__link side__link--dropdown" href="#">
+                    Кушетки и тахты
+                  </a>
+                </li>
+                <li class="side__item">
+                  <a class="side__link side__link--dropdown" href="#">
+                    Мини-диваны
+                  </a>
+                </li>
+                <li class="side__item">
+                  <a class="side__link side__link--dropdown" href="#">
+                    Офисные диваны
+                  </a>
+                </li>
+                <li class="side__item">
+                  <a class="side__link side__link--dropdown" href="#">
+                    Детские диваны
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="side__box accordion">
+            <button class="side__control accordion__control">Цена</button>
+            <div class="side__content accordion__content">
+              <div class="range-slider">
+                <div class="range-slider__range" id="slider-handles"></div>
+                <div class="range-slider__values">
+                  <span class="range-slider__min">руб</span>
+                  <span class="range-slider__max"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="side__box accordion">
+            <button class="side__control accordion__control">
+              Ценовой сегмент
+            </button>
+            <div class="side__content accordion__content">
+              <ul class="side__list">
+                <li class="side__item">
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox" />
+                    <span class="checkbox__box checkbox__box--green"></span>
+                    <span class="checkbox__text"> Эконом </span>
+                  </label>
+                </li>
+                <li class="side__item">
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox" checked />
+                    <span class="checkbox__box checkbox__box--green"></span>
+                    <span class="checkbox__text"> Средний </span>
+                  </label>
+                </li>
+                <li class="side__item">
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox" />
+                    <span class="checkbox__box checkbox__box--green"></span>
+                    <span class="checkbox__text"> Премиум </span>
+                  </label>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="side__box accordion">
+            <button class="side__control accordion__control">
+              Спецпредложения
+            </button>
+            <div class="side__content accordion__content">
+              <ul class="side__list">
+                <li class="side__item">
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox" />
+                    <span class="checkbox__box checkbox__box--green"></span>
+                    <span class="checkbox__text"> Новинка </span>
+                  </label>
+                </li>
+                <li class="side__item">
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox" />
+                    <span class="checkbox__box checkbox__box--green"></span>
+                    <span class="checkbox__text"> Скидки </span>
+                  </label>
+                </li>
+                <li class="side__item">
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox" />
+                    <span class="checkbox__box checkbox__box--green"></span>
+                    <span class="checkbox__text"> Распродажа </span>
+                  </label>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="side__box accordion">
+            <button class="side__control accordion__control">Размеры</button>
+            <div class="side__content accordion__content">
+              <div class="range-slider">
+                <span class="range-slider__name">Ширина, мм</span>
+                <div
+                  class="range-slider__range range-slider__range--width"
+                ></div>
+                <div class="range-slider__values">
+                  <span class="range-slider__min">от 0</span>
+                  <span class="range-slider__max">до 3050</span>
+                </div>
+              </div>
+              <div class="range-slider">
+                <span class="range-slider__name">Высота, мм</span>
+                <div
+                  class="range-slider__range range-slider__range--width"
+                  id="slider-handles-height"
+                ></div>
+                <div class="range-slider__values">
+                  <span class="range-slider__min">от 0</span>
+                  <span class="range-slider__max">до 900</span>
+                </div>
+              </div>
+              <div class="range-slider">
+                <span class="range-slider__name">Глубина, мм</span>
+                <div
+                  class="range-slider__range range-slider__range--width"
+                  id="slider-handles-depth"
+                ></div>
+                <div class="range-slider__values">
+                  <span class="range-slider__min">от 0</span>
+                  <span class="range-slider__max">до 1750</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="side__box accordion">
+            <button class="side__control accordion__control">Цвет</button>
+            <div class="side__content accordion__content">
+              <ul class="side__list">
+                <li class="side__item">
+                  <button class="side__color side__color--white" type="button">
+                    Белый
+                  </button>
+                </li>
+                <li class="side__item">
+                  <button class="side__color side__color--beige" type="button">
+                    Бежевый
+                  </button>
+                </li>
+                <li class="side__item">
+                  <button class="side__color side__color--black" type="button">
+                    Черный
+                  </button>
+                </li>
+                <li class="side__item">
+                  <button class="side__color side__color--green" type="button">
+                    Зеленый
+                  </button>
+                </li>
+                <li class="side__item">
+                  <button class="side__color side__color--blue" type="button">
+                    Голубой
+                  </button>
+                </li>
+                <li class="side__item">
+                  <button class="side__color side__color--red" type="button">
+                    Красный
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="categories__right">
+        <ul class="categories__list">
+          <li class="categories__item">
+            <article class="product-card">
+              <div class="product-card__top">
+                <img src="images/content/sofas/1.png" alt="Диван" />
+
+                <a class="product-card__btns" href="#">
+                  <button
+                    class="product-card__btn product-card__btn--view"
+                    type="button"
+                    aria-label="Посмотреть"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--favorite"
+                    type="button"
+                    aria-label="В избранное"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--cart"
+                    type="button"
+                  >
+                    В корзину
+                  </button>
+                </a>
+
+                <div class="product-card__badge">35%</div>
+              </div>
+
+              <div class="product-card__body">
+                <h3 class="product-card__title">Модульный диван Турин (НПБ)</h3>
+
+                <p class="product-card__price">53 480 ₽</p>
+              </div>
+            </article>
+          </li>
+          <li class="categories__item">
+            <article class="product-card">
+              <div class="product-card__top">
+                <img src="images/content/sofas/2.png" alt="Диван" />
+
+                <a class="product-card__btns" href="#">
+                  <button
+                    class="product-card__btn product-card__btn--view"
+                    type="button"
+                    aria-label="Посмотреть"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--favorite"
+                    type="button"
+                    aria-label="В избранное"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--cart"
+                    type="button"
+                  >
+                    В корзину
+                  </button>
+                </a>
+              </div>
+
+              <div class="product-card__body">
+                <h3 class="product-card__title">Диван угловой Амстердам 160</h3>
+
+                <p class="product-card__price">19 750 ₽</p>
+              </div>
+            </article>
+          </li>
+          <li class="categories__item">
+            <article class="product-card">
+              <div class="product-card__top">
+                <img src="images/content/sofas/3.png" alt="Диван" />
+
+                <div class="product-card__badge">35%</div>
+                <a class="product-card__btns" href="#">
+                  <button
+                    class="product-card__btn product-card__btn--view"
+                    type="button"
+                    aria-label="Посмотреть"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--favorite"
+                    type="button"
+                    aria-label="В избранное"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--cart"
+                    type="button"
+                  >
+                    В корзину
+                  </button>
+                </a>
+              </div>
+
+              <div class="product-card__body">
+                <h3 class="product-card__title">Диван угловой "Хилтон"</h3>
+
+                <p class="product-card__price">22 940 ₽</p>
+              </div>
+            </article>
+          </li>
+          <li class="categories__item">
+            <article class="product-card">
+              <div class="product-card__top">
+                <img src="images/content/sofas/4.png" alt="Диван" />
+
+                <a class="product-card__btns" href="#">
+                  <button
+                    class="product-card__btn product-card__btn--view"
+                    type="button"
+                    aria-label="Посмотреть"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--favorite"
+                    type="button"
+                    aria-label="В избранное"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--cart"
+                    type="button"
+                  >
+                    В корзину
+                  </button>
+                </a>
+              </div>
+
+              <div class="product-card__body">
+                <h3 class="product-card__title">Модульный диван Турин (НПБ)</h3>
+
+                <p class="product-card__price">53 480 ₽</p>
+              </div>
+            </article>
+          </li>
+          <li class="categories__item">
+            <article class="product-card">
+              <div class="product-card__top">
+                <img src="images/content/sofas/5.png" alt="Диван" />
+
+                <a class="product-card__btns" href="#">
+                  <button
+                    class="product-card__btn product-card__btn--view"
+                    type="button"
+                    aria-label="Посмотреть"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--favorite"
+                    type="button"
+                    aria-label="В избранное"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--cart"
+                    type="button"
+                  >
+                    В корзину
+                  </button>
+                </a>
+              </div>
+
+              <div class="product-card__body">
+                <h3 class="product-card__title">Диван угловой Амстердам 160</h3>
+
+                <p class="product-card__price">19 750 ₽</p>
+              </div>
+            </article>
+          </li>
+          <li class="categories__item">
+            <article class="product-card">
+              <div class="product-card__top">
+                <img src="images/content/sofas/6.png" alt="Диван" />
+
+                <a class="product-card__btns" href="#">
+                  <button
+                    class="product-card__btn product-card__btn--view"
+                    type="button"
+                    aria-label="Посмотреть"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--favorite"
+                    type="button"
+                    aria-label="В избранное"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--cart"
+                    type="button"
+                  >
+                    В корзину
+                  </button>
+                </a>
+              </div>
+
+              <div class="product-card__body">
+                <h3 class="product-card__title">Диван угловой "Хилтон"</h3>
+
+                <p class="product-card__price">22 940 ₽</p>
+              </div>
+            </article>
+          </li>
+          <li class="categories__item">
+            <article class="product-card">
+              <div class="product-card__top">
+                <img src="images/content/sofas/1.png" alt="Диван" />
+
+                <a class="product-card__btns" href="#">
+                  <button
+                    class="product-card__btn product-card__btn--view"
+                    type="button"
+                    aria-label="Посмотреть"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--favorite"
+                    type="button"
+                    aria-label="В избранное"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--cart"
+                    type="button"
+                  >
+                    В корзину
+                  </button>
+                </a>
+
+                <div class="product-card__badge">35%</div>
+              </div>
+
+              <div class="product-card__body">
+                <h3 class="product-card__title">Модульный диван Турин (НПБ)</h3>
+
+                <p class="product-card__price">53 480 ₽</p>
+              </div>
+            </article>
+          </li>
+          <li class="categories__item">
+            <article class="product-card">
+              <div class="product-card__top">
+                <img src="images/content/sofas/2.png" alt="Диван" />
+
+                <a class="product-card__btns" href="#">
+                  <button
+                    class="product-card__btn product-card__btn--view"
+                    type="button"
+                    aria-label="Посмотреть"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--favorite"
+                    type="button"
+                    aria-label="В избранное"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--cart"
+                    type="button"
+                  >
+                    В корзину
+                  </button>
+                </a>
+              </div>
+
+              <div class="product-card__body">
+                <h3 class="product-card__title">Диван угловой Амстердам 160</h3>
+
+                <p class="product-card__price">19 750 ₽</p>
+              </div>
+            </article>
+          </li>
+          <li class="categories__item">
+            <article class="product-card">
+              <div class="product-card__top">
+                <img src="images/content/sofas/3.png" alt="Диван" />
+
+                <div class="product-card__badge">35%</div>
+                <a class="product-card__btns" href="#">
+                  <button
+                    class="product-card__btn product-card__btn--view"
+                    type="button"
+                    aria-label="Посмотреть"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--favorite"
+                    type="button"
+                    aria-label="В избранное"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--cart"
+                    type="button"
+                  >
+                    В корзину
+                  </button>
+                </a>
+              </div>
+
+              <div class="product-card__body">
+                <h3 class="product-card__title">Диван угловой "Хилтон"</h3>
+
+                <p class="product-card__price">22 940 ₽</p>
+              </div>
+            </article>
+          </li>
+          <li class="categories__item">
+            <article class="product-card">
+              <div class="product-card__top">
+                <img src="images/content/sofas/4.png" alt="Диван" />
+
+                <a class="product-card__btns" href="#">
+                  <button
+                    class="product-card__btn product-card__btn--view"
+                    type="button"
+                    aria-label="Посмотреть"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--favorite"
+                    type="button"
+                    aria-label="В избранное"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--cart"
+                    type="button"
+                  >
+                    В корзину
+                  </button>
+                </a>
+              </div>
+
+              <div class="product-card__body">
+                <h3 class="product-card__title">Модульный диван Турин (НПБ)</h3>
+
+                <p class="product-card__price">53 480 ₽</p>
+              </div>
+            </article>
+          </li>
+          <li class="categories__item">
+            <article class="product-card">
+              <div class="product-card__top">
+                <img src="images/content/sofas/5.png" alt="Диван" />
+
+                <a class="product-card__btns" href="#">
+                  <button
+                    class="product-card__btn product-card__btn--view"
+                    type="button"
+                    aria-label="Посмотреть"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--favorite"
+                    type="button"
+                    aria-label="В избранное"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--cart"
+                    type="button"
+                  >
+                    В корзину
+                  </button>
+                </a>
+              </div>
+
+              <div class="product-card__body">
+                <h3 class="product-card__title">Диван угловой Амстердам 160</h3>
+
+                <p class="product-card__price">19 750 ₽</p>
+              </div>
+            </article>
+          </li>
+          <li class="categories__item">
+            <article class="product-card">
+              <div class="product-card__top">
+                <img src="images/content/sofas/6.png" alt="Диван" />
+
+                <a class="product-card__btns" href="#">
+                  <button
+                    class="product-card__btn product-card__btn--view"
+                    type="button"
+                    aria-label="Посмотреть"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--favorite"
+                    type="button"
+                    aria-label="В избранное"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--cart"
+                    type="button"
+                  >
+                    В корзину
+                  </button>
+                </a>
+              </div>
+
+              <div class="product-card__body">
+                <h3 class="product-card__title">Диван угловой "Хилтон"</h3>
+
+                <p class="product-card__price">22 940 ₽</p>
+              </div>
+            </article>
+          </li>
+          <li class="categories__item">
+            <article class="product-card">
+              <div class="product-card__top">
+                <img src="images/content/sofas/1.png" alt="Диван" />
+
+                <a class="product-card__btns" href="#">
+                  <button
+                    class="product-card__btn product-card__btn--view"
+                    type="button"
+                    aria-label="Посмотреть"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--favorite"
+                    type="button"
+                    aria-label="В избранное"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--cart"
+                    type="button"
+                  >
+                    В корзину
+                  </button>
+                </a>
+
+                <div class="product-card__badge">35%</div>
+              </div>
+
+              <div class="product-card__body">
+                <h3 class="product-card__title">Модульный диван Турин (НПБ)</h3>
+
+                <p class="product-card__price">53 480 ₽</p>
+              </div>
+            </article>
+          </li>
+          <li class="categories__item">
+            <article class="product-card">
+              <div class="product-card__top">
+                <img src="images/content/sofas/2.png" alt="Диван" />
+
+                <a class="product-card__btns" href="#">
+                  <button
+                    class="product-card__btn product-card__btn--view"
+                    type="button"
+                    aria-label="Посмотреть"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--favorite"
+                    type="button"
+                    aria-label="В избранное"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--cart"
+                    type="button"
+                  >
+                    В корзину
+                  </button>
+                </a>
+              </div>
+
+              <div class="product-card__body">
+                <h3 class="product-card__title">Диван угловой Амстердам 160</h3>
+
+                <p class="product-card__price">19 750 ₽</p>
+              </div>
+            </article>
+          </li>
+          <li class="categories__item">
+            <article class="product-card">
+              <div class="product-card__top">
+                <img src="images/content/sofas/3.png" alt="Диван" />
+
+                <div class="product-card__badge">35%</div>
+                <a class="product-card__btns" href="#">
+                  <button
+                    class="product-card__btn product-card__btn--view"
+                    type="button"
+                    aria-label="Посмотреть"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--favorite"
+                    type="button"
+                    aria-label="В избранное"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--cart"
+                    type="button"
+                  >
+                    В корзину
+                  </button>
+                </a>
+              </div>
+
+              <div class="product-card__body">
+                <h3 class="product-card__title">Диван угловой "Хилтон"</h3>
+
+                <p class="product-card__price">22 940 ₽</p>
+              </div>
+            </article>
+          </li>
+          <li class="categories__item">
+            <article class="product-card">
+              <div class="product-card__top">
+                <img src="images/content/sofas/4.png" alt="Диван" />
+
+                <a class="product-card__btns" href="#">
+                  <button
+                    class="product-card__btn product-card__btn--view"
+                    type="button"
+                    aria-label="Посмотреть"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--favorite"
+                    type="button"
+                    aria-label="В избранное"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--cart"
+                    type="button"
+                  >
+                    В корзину
+                  </button>
+                </a>
+              </div>
+
+              <div class="product-card__body">
+                <h3 class="product-card__title">Модульный диван Турин (НПБ)</h3>
+
+                <p class="product-card__price">53 480 ₽</p>
+              </div>
+            </article>
+          </li>
+          <li class="categories__item">
+            <article class="product-card">
+              <div class="product-card__top">
+                <img src="images/content/sofas/5.png" alt="Диван" />
+
+                <a class="product-card__btns" href="#">
+                  <button
+                    class="product-card__btn product-card__btn--view"
+                    type="button"
+                    aria-label="Посмотреть"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--favorite"
+                    type="button"
+                    aria-label="В избранное"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--cart"
+                    type="button"
+                  >
+                    В корзину
+                  </button>
+                </a>
+              </div>
+
+              <div class="product-card__body">
+                <h3 class="product-card__title">Диван угловой Амстердам 160</h3>
+
+                <p class="product-card__price">19 750 ₽</p>
+              </div>
+            </article>
+          </li>
+          <li class="categories__item">
+            <article class="product-card">
+              <div class="product-card__top">
+                <img src="images/content/sofas/6.png" alt="Диван" />
+
+                <a class="product-card__btns" href="#">
+                  <button
+                    class="product-card__btn product-card__btn--view"
+                    type="button"
+                    aria-label="Посмотреть"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--favorite"
+                    type="button"
+                    aria-label="В избранное"
+                  ></button>
+                  <button
+                    class="product-card__btn product-card__btn--cart"
+                    type="button"
+                  >
+                    В корзину
+                  </button>
+                </a>
+              </div>
+
+              <div class="product-card__body">
+                <h3 class="product-card__title">Диван угловой "Хилтон"</h3>
+
+                <p class="product-card__price">22 940 ₽</p>
+              </div>
+            </article>
+          </li>
+        </ul>
+
+        <div class="categories__bottom">
+          <div class="categories__pagination pagination">
+            <ul class="pagination__list">
+              <li class="pagination__item">
+                <a class="pagination__link pagination__link--active" href="#"
+                  >1</a
+                >
+              </li>
+              <li class="pagination__item">
+                <a class="pagination__link" href="#">2</a>
+              </li>
+              <li class="pagination__item">
+                <a class="pagination__link" href="#">3</a>
+              </li>
+              <li class="pagination__item">
+                <a class="pagination__link" href="#">4</a>
+              </li>
+              <li class="pagination__item">
+                <a class="pagination__link" href="#">5</a>
+              </li>
+              <li class="pagination__item">
+                <a class="pagination__link pagination__link--dots">...</a>
+              </li>
+              <li class="pagination__item">
+                <a class="pagination__link pagination__link--further" href="#">
+                  346
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

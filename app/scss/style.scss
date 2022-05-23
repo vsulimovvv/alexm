@@ -1,0 +1,57 @@
+@import 'libs';
+@import 'reset';
+@import 'vars';
+@import 'mixins';
+@import 'fonts';
+@import 'global';
+
+@import './animations';
+
+// * ===== Other components
+@import './components/breadcrumbs';
+@import './components/swiper-options';
+@import './components/custom-checkbox';
+@import './components/custom-select';
+@import './components/socials';
+@import './components/form-submit';
+@import './components/side';
+@import './components/accordion';
+@import './components/menu-mobile';
+@import './components/menu';
+
+// * ===== Card Components
+@import './components/categories-card';
+@import './components/card-product';
+
+// * ===== Section Components
+@import './components/footer';
+@import './components/header';
+@import './components/hero';
+@import './components/contacts';
+@import './components/advantages';
+@import './components/banners';
+@import './components/promocode';
+@import './components/stylish';
+@import './components/descr';
+@import './components/benefits';
+@import './components/subscription';
+@import './components/banner';
+@import './components/guarantee';
+@import './components/furniture';
+@import './components/return';
+@import './components/experience';
+@import './components/promo';
+@import './components/wholesalers';
+@import './components/delivery-bulk-orders';
+@import './components/bulk-order-pickup';
+@import './components/price-list';
+@import './components/news';
+@import './components/delivery';
+@import './components/payment-methods';
+@import './components/reviews';
+@import './components/credit-promo';
+@import './components/credit-buy';
+@import './components/conditions';
+@import './components/catalog';
+@import './components/categories';
+@import './components/new-products';

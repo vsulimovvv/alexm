@@ -1,0 +1,45 @@
+.delivery-bulk {
+  @include adaptive-value('padding-top', 60, 40, 1);
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+
+    @include breakpointsMaxW($bp-991) {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+  }
+
+  &__title {
+    @include fz30();
+    line-height: 1.3;
+    @include adaptive-value('margin-bottom', 35, 25, 1);
+  }
+
+  &__text {
+    color: #5b5a5a;
+
+    p {
+      span {
+        font-weight: 700;
+        color: #464646;
+        @include adaptive-value('font-size', 22, 18, 1);
+        line-height: 1.2;
+      }
+    
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  &__preview {
+    @include background(cover);
+    @include breakpointsMaxW($bp-991) {
+      height: calc(250px + (460 - 250) * ((100vw - 320px) / (991 - 320)));
+      order: 1;
+    }
+  }
+}

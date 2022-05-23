@@ -1,0 +1,125 @@
+.contacts {
+  @include adaptive-value('padding-top', 40, 30, 1);
+  @include adaptive-value('padding-bottom', 70, 40, 1);
+
+  &__title {
+    @include fz35();
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 40px;
+  }
+
+  &__inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 50px;
+
+    @include adaptive-value('margin-bottom', 45, 30, 1);
+    @include breakpointsMaxW($bp-container) {
+      gap: 30px;
+      align-items: center;
+    }
+    @include breakpointsMaxW($bp-768) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns:
+      minmax(auto, 340px) minmax(auto, 215px) minmax(auto, 155px)
+      minmax(auto, 180px);
+    gap: 30px;
+    justify-content: space-between;
+
+    @include breakpointsMaxW($bp-container) {
+      gap: 20px;
+    }
+
+    @include breakpointsMaxW($bp-991) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+
+    @include breakpointsMaxW($bp-768) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .contacts-item {
+    color: #3e3e3e;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    padding-left: 35px;
+    position: relative;
+
+    &::after {
+      @include elDef();
+      width: 23px;
+      height: 23px;
+      top: 0;
+      left: 0;
+      background-color: var(--color-accent);
+    }
+
+    &--location {
+      &::after {
+        @include maskImage(url('../images/icons/location.svg'), contain);
+      }
+    }
+
+    &--schedule {
+      &::after {
+        @include maskImage(url('../images/icons/clock.svg'), contain);
+      }
+    }
+
+    &--phone {
+      &::after {
+        @include maskImage(url('../images/icons/phone-2.svg'), contain);
+      }
+    }
+
+    &--mail {
+      &::after {
+        @include maskImage(url('../images/icons/email.svg'), contain);
+      }
+    }
+
+    &__name {
+      font-size: 17px;
+      line-height: 1;
+      font-weight: 700;
+      color: #3e3e3e;
+    }
+
+    &__text {
+      font-weight: 400;
+    }
+  }
+
+  .subscription__socials {
+    .socials__list {
+      gap: 5px;
+    }
+    .socials__link {
+      width: 33px;
+      height: 33px;
+      border-radius: 5px;
+
+      &::after {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+
+  &__map {
+    width: 100%;
+    @include adaptive-value('height', 370, 280, 1);
+  }
+}

@@ -1,0 +1,45 @@
+.stylish {
+  @include background(cover);
+  color: var(--color-white);
+
+  &__wrapper {
+    @include adaptive-value('padding-top', 90, 50, 1);
+    @include adaptive-value('padding-bottom', 140, 70, 1);
+  }
+
+  &__title {
+    @include fz45();
+    line-height: 1.2;
+    margin-bottom: 25px;
+
+    span {
+      display: block;
+    }
+  }
+
+  &__text {
+    @include adaptive-value('margin-bottom', 40, 25, 1);
+  }
+
+  &__list {
+    max-width: 610px;
+    display: flex;
+    align-items: center;
+    gap: 20px 10px;
+    flex-wrap: wrap;
+  }
+
+  &__picker {
+    display: block;
+    padding: 15px 20px;
+    line-height: 1;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    transition: 200ms ease;
+    
+    &:hover {
+      background-color: var(--color-white);
+      color: var(--color-dark);
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.price-list {
+  @include adaptive-value('padding-top', 75, 40, 1);
+  @include adaptive-value('padding-bottom', 75, 40, 1);
+
+  &__top {
+    @include adaptive-value('margin-bottom', 30, 20, 1);
+    text-align: center;
+  }
+
+  &__title {
+    margin-bottom:5px;
+    @include fz30();
+    line-height: 1.3;
+  }
+
+  &__form {
+    max-width: 440px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  &--write {
+    .price-list__title {
+      @include fz35();
+    }
+  }
+}

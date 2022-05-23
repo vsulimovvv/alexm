@@ -1,0 +1,143 @@
+.product-card {
+  max-width: 310px;
+  width: 100%;
+  height: 100%;
+
+  &:hover {
+    @include breakpointsMinW($bp-991) {
+      .product-card__btns {
+        transform: translate(-50%, 0);
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+
+  &__top {
+    width: 100%;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 20px;
+
+    img {
+      @include img(contain);
+    }
+  }
+
+  &__title {
+    font-size: 16px;
+    line-height: 1.1;
+    font-weight: 400;
+    color: #4f545e;
+    margin-bottom: 15px;
+  }
+
+  &__price {
+    font-size: 21px;
+    line-height: 1.1;
+    font-weight: 400;
+    color: #151a24;
+  }
+
+  &__btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 185px;
+    gap: 5px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, -10px);
+
+    @include breakpointsMinW($bp-991) {
+      transition: 400ms ease;
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+
+  &__btn {
+    background-color: var(--color-white);
+    box-shadow: 6px 13px 21px 0px rgba(0, 0, 0, 0.07);
+    width: 37px;
+    height: 37px;
+    position: relative;
+    transition: 200ms ease;
+
+    &::after {
+      @include elDef();
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 16px;
+      height: 16px;
+      background-color: var(--color-dark);
+      transition: 200ms ease;
+    }
+
+    &:hover {
+      background-color: var(--color-accent);
+
+      &::after {
+        background-color: var(--color-white);
+      }
+    }
+
+    &--view {
+      &::after {
+        @include maskImage(url('../images/icons/eye.svg'), contain);
+      }
+    }
+
+    &--favorite {
+      &::after {
+        @include maskImage(url('../images/icons/heart.svg'), contain);
+      }
+    }
+
+    &--cart {
+      width: 100px;
+      background-color: var(--color-accent);
+      color: var(--color-white);
+      font-size: 13px;
+      line-height: 1;
+      padding-left: 30px;
+
+      &::after {
+        @include maskImage(url('../images/icons/cart.svg'), contain);
+        background-color: var(--color-white);
+        left: 12px;
+        transform: translate(0, -50%);
+      }
+
+      &:hover {
+        background-color: darken(#006930, 10%);
+      }
+    }
+  }
+
+  &__badge {
+    width: 35px;
+    height: 35px;
+    color: var(--color-white);
+    background-color: #d93c3c;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 16px;
+    left: 16px;
+
+    border-radius: 50%;
+  }
+}

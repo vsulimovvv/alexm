@@ -1,0 +1,56 @@
+.guarantee {
+  @include adaptive-value('padding-top', 40, 30, 1);
+
+  &__title {
+    @include fz35();
+    @include adaptive-value('margin-bottom', 25, 15, 1);
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+
+    @include breakpointsMaxW($bp-container) {
+      gap: 30px;
+    }
+    @include breakpointsMaxW($bp-991) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__preview {
+    @include background(cover);
+    height: 100%;
+    width: 100%;
+    @include breakpointsMaxW($bp-991) {
+      height: calc(280px + (500 - 280) * ((100vw - 320px) / (991 - 320)));
+    }
+  }
+
+  &__text {
+    color: #3f3f3f;
+    font-size: 18px;
+    @include breakpointsMaxW($bp-768) {
+      font-size: 16px;
+    }
+
+    p {
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+      span {
+        font-size: 20px;
+        font-weight: 600;
+
+        @include breakpointsMaxW($bp-768) {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  &__list {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,65 @@
+.conditions {
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 45px;
+
+    @include breakpointsMaxW($bp-991) {
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+  }
+
+  &__title {
+    @include fz35();
+    line-height: 1.3;
+    @include adaptive-value('margin-bottom', 40, 30, 1);
+  }
+
+  &__heading {
+    display: block;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #404040;
+    margin-bottom: 20px;
+  }
+
+  &__list {
+    display: grid;
+    gap: 10px;
+  }
+
+  &__item {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #5b5b5b;
+
+    @include breakpointsMaxW($bp-768) {
+      font-size: 16px;
+    }
+  }
+
+  &__box {
+    &:not(:last-child) {
+      @include adaptive-value('margin-bottom', 45, 20, 1);
+    }
+  }
+
+  &__preview {
+    border-radius: 150px 0px 0px 0px;
+    @include background(cover);
+    height: 640px;
+
+    @include breakpointsMaxW($bp-991) {
+      order: 1;
+      border-radius: 100px 0px 0px 0px;
+
+      height: calc(280px + (700 - 280) * ((100vw - 320px) / (991 - 320)));
+    }
+
+    @include breakpointsMaxW($bp-768) {
+      border-radius: 50px 0px 0px 0px;
+    }
+  }
+}

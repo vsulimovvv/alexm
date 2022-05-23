@@ -1,0 +1,67 @@
+.socials {
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  &__link {
+    display: block;
+    width: 42px;
+    height: 42px;
+    background-color: #242424;
+    border-radius: 10px;
+    transition: 200ms ease;
+    position: relative;
+
+    &::after {
+      @include elDef();
+      width: 19px;
+      height: 19px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: var(--color-white);
+      transition: 200ms ease;
+    }
+
+    &:hover {
+      background-color: var(--color-white);
+
+      &::after {
+        background-color: var(--color-dark);
+      }
+    }
+
+    &--pinterest {
+      &::after {
+        @include maskImage(url('../images/icons/pinterest.svg'), contain);
+      }
+    }
+
+    &--vk {
+      &::after {
+        @include maskImage(url('../images/icons/vk.svg'), contain);
+      }
+    }
+
+    &--ok {
+      &::after {
+        @include maskImage(url('../images/icons/odnoklassniki.svg'), contain);
+      }
+    }
+
+    &--telegram {
+      &::after {
+        @include maskImage(url('../images/icons/telegram-plane.svg'), contain);
+      }
+    }
+
+    &--whatsapp {
+      &::after {
+        @include maskImage(url('../images/icons/whatsapp.svg'), contain);
+      }
+    }
+  }
+}

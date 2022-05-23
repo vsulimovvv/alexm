@@ -1,0 +1,67 @@
+.categories-card {
+  max-width: 310px;
+  width: 100%;
+  height: 280px;
+  transition: 200ms ease;
+
+  &:hover {
+    box-shadow: 0 0 10px 5px rgb(200 200 200 / 70%);
+  }
+  @include breakpointsMaxW($bp-768) {
+    height: 200px;
+  }
+
+  &__top {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 35px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    @include breakpointsMaxW($bp-768) {
+      padding: 20px;
+    }
+
+    img {
+      @include img(contain);
+    }
+  }
+
+  &__btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 135px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-white);
+    box-shadow: 7px 13px 21px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    font-size: 17px;
+    line-height: 1;
+    font-weight: 400;
+    color: #494949;
+    transition: 200ms ease;
+    @include breakpointsMaxW($bp-768) {
+      bottom: 10px;
+    }
+
+    &--module {
+      width: 175px;
+    }
+
+    &--children {
+      width: 165px;
+    }
+
+    &:hover {
+      background-color: var(--color-dark);
+      color: var(--color-white);
+    }
+  }
+}
