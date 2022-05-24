@@ -34,7 +34,46 @@
   </head>
 
   <body>
-    
+    <div class="popup popup--call">
+  <div class="popup__container">
+    <button class="popup__close" type="button" aria-label="Закрыть">
+      <svg width="15" height="15">
+        <use xlink:href="images/sprite.svg#close"></use>
+      </svg>
+    </button>
+    <div class="popup__wrapper">
+      <h2 class="popup__title">Заказать звонок</h2>
+      <div class="popup__text">
+        <p>Оставьте ваши данные и мы вам перезвоним.</p>
+      </div>
+
+      <form class="price-list__form form-submit">
+        <label class="form-submit__group">
+          <input class="form-submit__input" type="text" placeholder="ФИО" />
+        </label>
+        <label class="form-submit__group">
+          <input class="form-submit__input" type="text" placeholder="E-mail" />
+        </label>
+        <label class="form-submit__group">
+          <input class="form-submit__input" type="tel" placeholder="+7 (999) 999-99-99" />
+        </label>
+   
+
+        <label class="checkbox">
+          <input class="checkbox__input" type="checkbox" checked />
+          <span class="checkbox__box"></span>
+          <span class="checkbox__text">
+            Нажимая на кнопку отправить я соглашаюсь с
+            <a href="#">политикой конфиденциальности</a>
+          </span>
+        </label>
+
+        <button class="form-submit__btn btn" type="button">Заказать звонок</button>
+      </form>
+    </div>
+  </div>
+</div>
+
 
     <h1 class="visually-hidden">Главная</h1>
 
@@ -68,24 +107,40 @@
           <div class="mobile-menu-box__content accordion__content">
             <ul class="mobile-menu-box__list">
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Мезотерапия</a>
+                <a class="mobile-menu-box__link" href="#">Диваны</a>
               </li>
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Уходовая косметика</a>
+                <a class="mobile-menu-box__link" href="#">Кресла</a>
               </li>
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#"
-                  >Косметологические аппараты</a
-                >
+                <a class="mobile-menu-box__link" href="#">Столы и стулья</a>
               </li>
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Прочее</a>
+                <a class="mobile-menu-box__link" href="#">Мебель для сада</a>
               </li>
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Бренды</a>
+                <a class="mobile-menu-box__link" href="#">Кровати</a>
               </li>
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Уцененные товары</a>
+                <a class="mobile-menu-box__link" href="#">Модульные гостиные</a>
+              </li>
+              <li class="mobile-menu-box__item">
+                <a class="mobile-menu-box__link" href="#">Стенки</a>
+              </li>
+              <li class="mobile-menu-box__item">
+                <a class="mobile-menu-box__link" href="#">Шкафы</a>
+              </li>
+              <li class="mobile-menu-box__item">
+                <a class="mobile-menu-box__link" href="#">Кухни</a>
+              </li>
+              <li class="mobile-menu-box__item">
+                <a class="mobile-menu-box__link" href="#">Тумбы и комоды</a>
+              </li>
+              <li class="mobile-menu-box__item">
+                <a class="mobile-menu-box__link" href="#">Мебель для ванной</a>
+              </li>
+              <li class="mobile-menu-box__item">
+                <a class="mobile-menu-box__link" href="#">Прихожие</a>
               </li>
             </ul>
           </div>
@@ -109,10 +164,10 @@
           <div class="mobile-menu-box__content accordion__content">
             <ul class="mobile-menu-box__list">
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Доставка</a>
+                <a class="mobile-menu-box__link" href="#">      Мягкая мебель</a>
               </li>
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Оплата</a>
+                <a class="mobile-menu-box__link" href="#">      Мягкая мебель</a>
               </li>
             </ul>
           </div>
@@ -130,10 +185,10 @@
           <div class="mobile-menu-box__content accordion__content">
             <ul class="mobile-menu-box__list">
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Статьи</a>
+                <a class="mobile-menu-box__link" href="#">Столы</a>
               </li>
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Обзоры</a>
+                <a class="mobile-menu-box__link" href="#">Столы</a>
               </li>
             </ul>
           </div>
@@ -151,16 +206,16 @@
           <div class="mobile-menu-box__content accordion__content">
             <ul class="mobile-menu-box__list">
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">О компанию</a>
+                <a class="mobile-menu-box__link" href="#">Стулья</a>
               </li>
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Новости</a>
+                <a class="mobile-menu-box__link" href="#">Стулья</a>
               </li>
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Отзывы</a>
+                <a class="mobile-menu-box__link" href="#">Стулья</a>
               </li>
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Сертификаты</a>
+                <a class="mobile-menu-box__link" href="#">Стулья</a>
               </li>
             </ul>
           </div>
@@ -178,16 +233,16 @@
           <div class="mobile-menu-box__content accordion__content">
             <ul class="mobile-menu-box__list">
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Скачать прайс-лист</a>
+                <a class="mobile-menu-box__link" href="#">Мебель для сада</a>
               </li>
               <li class="mobile-menu-box__item">
                 <a class="mobile-menu-box__link" href="#"
-                  >Запросить прайс-лист для косметолога</a
+                  >Мебель для сада</a
                 >
               </li>
               <li class="mobile-menu-box__item">
                 <a class="mobile-menu-box__link" href="#"
-                  >Запросить оптовый прайс-лист</a
+                  >Мебель для сада</a
                 >
               </li>
             </ul>
@@ -206,10 +261,10 @@
           <div class="mobile-menu-box__content accordion__content">
             <ul class="mobile-menu-box__list">
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Адрес</a>
+                <a class="mobile-menu-box__link" href="#">Посуда</a>
               </li>
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Телефон</a>
+                <a class="mobile-menu-box__link" href="#">Посуда</a>
               </li>
             </ul>
           </div>
@@ -227,10 +282,10 @@
           <div class="mobile-menu-box__content accordion__content">
             <ul class="mobile-menu-box__list">
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Адрес</a>
+                <a class="mobile-menu-box__link" href="#">Для детской</a>
               </li>
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Телефон</a>
+                <a class="mobile-menu-box__link" href="#">Для детской</a>
               </li>
             </ul>
           </div>
@@ -458,24 +513,40 @@
                 <div class="dropmenu dropmenu--left">
                   <ul class="dropmenu__list">
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#">Мезотерапия</a>
+                      <a class="dropmenu__link" href="#">Диваны</a>
                     </li>
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#">Уходовая косметика</a>
+                      <a class="dropmenu__link" href="#">Кресла</a>
                     </li>
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#"
-                        >Косметологические аппараты</a
-                      >
+                      <a class="dropmenu__link" href="#">Столы и стулья</a>
                     </li>
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#">Прочее</a>
+                      <a class="dropmenu__link" href="#">Мебель для сада</a>
                     </li>
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#">Бренды</a>
+                      <a class="dropmenu__link" href="#">Кровати</a>
                     </li>
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#">Уцененные товары</a>
+                      <a class="dropmenu__link" href="#">Модульные гостиные</a>
+                    </li>
+                    <li class="dropmenu__item">
+                      <a class="dropmenu__link" href="#">Стенки</a>
+                    </li>
+                    <li class="dropmenu__item">
+                      <a class="dropmenu__link" href="#">Шкафы</a>
+                    </li>
+                    <li class="dropmenu__item">
+                      <a class="dropmenu__link" href="#">Кухни</a>
+                    </li>
+                    <li class="dropmenu__item">
+                      <a class="dropmenu__link" href="#">Тумбы и комоды</a>
+                    </li>
+                    <li class="dropmenu__item">
+                      <a class="dropmenu__link" href="#">Мебель для ванной</a>
+                    </li>
+                    <li class="dropmenu__item">
+                      <a class="dropmenu__link" href="#">Прихожие</a>
                     </li>
                   </ul>
                 </div>
@@ -494,10 +565,10 @@
                 <div class="dropmenu">
                   <ul class="dropmenu__list">
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#">Доставка</a>
+                      <a class="dropmenu__link" href="#"> Мягкая мебель</a>
                     </li>
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#">Оплата</a>
+                      <a class="dropmenu__link" href="#"> Мягкая мебель</a>
                     </li>
                   </ul>
                 </div>
@@ -546,11 +617,6 @@
                     <li class="dropmenu__item">
                       <a class="dropmenu__link" href="#"> Мебель для сада </a>
                     </li>
-                    <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#">
-                        Запросить оптовый прайс-лист
-                      </a>
-                    </li>
                   </ul>
                 </div>
               </li>
@@ -560,17 +626,13 @@
                 <div class="dropmenu dropmenu--right">
                   <ul class="dropmenu__list">
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#">Адреса и телефоны</a>
+                      <a class="dropmenu__link" href="#">Посуда</a>
                     </li>
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#"
-                        >Техническая поддержка</a
-                      >
+                      <a class="dropmenu__link" href="#">Посуда</a>
                     </li>
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#"
-                        >Мы в социальных сетях</a
-                      >
+                      <a class="dropmenu__link" href="#">Посуда</a>
                     </li>
                   </ul>
                 </div>
@@ -583,17 +645,13 @@
                 <div class="dropmenu dropmenu--right">
                   <ul class="dropmenu__list">
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#">Адреса и телефоны</a>
+                      <a class="dropmenu__link" href="#">Для детской</a>
                     </li>
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#"
-                        >Техническая поддержка</a
-                      >
+                      <a class="dropmenu__link" href="#">Для детской</a>
                     </li>
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#"
-                        >Мы в социальных сетях</a
-                      >
+                      <a class="dropmenu__link" href="#">Для детской</a>
                     </li>
                   </ul>
                 </div>
@@ -811,29 +869,34 @@
             </button>
           </li>
           <li class="new-products__top-item">
-            <button class="new-products__top-btn tabs-btn">Скамейки</button>
+            <button class="new-products__top-btn tabs-btn">Стенки</button>
           </li>
           <li class="new-products__top-item">
-            <button class="new-products__top-btn tabs-btn">Урны</button>
+            <button class="new-products__top-btn tabs-btn">Диваны</button>
           </li>
           <li class="new-products__top-item">
-            <button class="new-products__top-btn tabs-btn">Остановки</button>
+            <button class="new-products__top-btn tabs-btn">
+              Кухонные гарнитуры
+            </button>
           </li>
           <li class="new-products__top-item">
-            <button class="new-products__top-btn tabs-btn">Павильоны / навесы</button>
+            <button class="new-products__top-btn tabs-btn">Тумбы</button>
+          </li>
+          <li class="new-products__top-item">
+            <button class="new-products__top-btn tabs-btn">Столы</button>
           </li>
         </ul>
       </div>
     </div>
 
-    <div class="new-products__contents ">
+    <div class="new-products__contents">
       <div class="new-products__content tabs-content active">
         <div class="new-products__slider swiper">
           <ul class="new-products__slides swiper-wrapper">
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/1.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -869,7 +932,41 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/2.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Модульный диван Турин (НПБ)
+                  </h3>
+
+                  <p class="product-card__price">53 480 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/new/3.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -905,7 +1002,41 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/4.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Модульный диван Турин (НПБ)
+                  </h3>
+
+                  <p class="product-card__price">53 480 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/new/1.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -941,7 +1072,41 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/2.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Модульный диван Турин (НПБ)
+                  </h3>
+
+                  <p class="product-card__price">53 480 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/new/3.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -977,7 +1142,7 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/4.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -997,80 +1162,6 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
@@ -1102,7 +1193,7 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/1.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -1138,7 +1229,41 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/2.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Модульный диван Турин (НПБ)
+                  </h3>
+
+                  <p class="product-card__price">53 480 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/new/3.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -1174,7 +1299,41 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/4.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Модульный диван Турин (НПБ)
+                  </h3>
+
+                  <p class="product-card__price">53 480 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/new/1.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -1210,7 +1369,41 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/2.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Модульный диван Турин (НПБ)
+                  </h3>
+
+                  <p class="product-card__price">53 480 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/new/3.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -1246,7 +1439,7 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/4.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -1266,80 +1459,6 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
@@ -1371,7 +1490,7 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/1.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -1407,7 +1526,41 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/2.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Модульный диван Турин (НПБ)
+                  </h3>
+
+                  <p class="product-card__price">53 480 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/new/3.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -1443,7 +1596,41 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/4.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Модульный диван Турин (НПБ)
+                  </h3>
+
+                  <p class="product-card__price">53 480 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/new/1.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -1479,7 +1666,41 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/2.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Модульный диван Турин (НПБ)
+                  </h3>
+
+                  <p class="product-card__price">53 480 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/new/3.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -1515,7 +1736,7 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/4.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -1535,80 +1756,6 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
@@ -1640,7 +1787,7 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/1.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -1676,7 +1823,41 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/2.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Модульный диван Турин (НПБ)
+                  </h3>
+
+                  <p class="product-card__price">53 480 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/new/3.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -1712,7 +1893,41 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/4.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Модульный диван Турин (НПБ)
+                  </h3>
+
+                  <p class="product-card__price">53 480 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/new/1.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -1748,7 +1963,41 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/2.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Модульный диван Турин (НПБ)
+                  </h3>
+
+                  <p class="product-card__price">53 480 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/new/3.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -1784,7 +2033,7 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/4.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -1804,80 +2053,6 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
@@ -1909,7 +2084,7 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/1.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -1945,7 +2120,41 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/2.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Модульный диван Турин (НПБ)
+                  </h3>
+
+                  <p class="product-card__price">53 480 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/new/3.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -1981,7 +2190,41 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/4.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Модульный диван Турин (НПБ)
+                  </h3>
+
+                  <p class="product-card__price">53 480 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/new/1.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -2017,7 +2260,41 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/2.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Модульный диван Турин (НПБ)
+                  </h3>
+
+                  <p class="product-card__price">53 480 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/new/3.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -2053,7 +2330,7 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/new/4.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -2073,80 +2350,6 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
@@ -2172,6 +2375,304 @@
           ></button>
         </div>
       </div>
+      <div class="new-products__content tabs-content">
+        <div class="new-products__slider swiper">
+          <ul class="new-products__slides swiper-wrapper">
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/new/1.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+
+                  <div class="product-card__badge">35%</div>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Модульный диван Турин (НПБ)
+                  </h3>
+
+                  <p class="product-card__price">53 480 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/new/2.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Модульный диван Турин (НПБ)
+                  </h3>
+
+                  <p class="product-card__price">53 480 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/new/3.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+
+                  <div class="product-card__badge">35%</div>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Модульный диван Турин (НПБ)
+                  </h3>
+
+                  <p class="product-card__price">53 480 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/new/4.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Модульный диван Турин (НПБ)
+                  </h3>
+
+                  <p class="product-card__price">53 480 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/new/1.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+
+                  <div class="product-card__badge">35%</div>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Модульный диван Турин (НПБ)
+                  </h3>
+
+                  <p class="product-card__price">53 480 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/new/2.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Модульный диван Турин (НПБ)
+                  </h3>
+
+                  <p class="product-card__price">53 480 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/new/3.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+
+                  <div class="product-card__badge">35%</div>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Модульный диван Турин (НПБ)
+                  </h3>
+
+                  <p class="product-card__price">53 480 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/new/4.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Модульный диван Турин (НПБ)
+                  </h3>
+
+                  <p class="product-card__price">53 480 ₽</p>
+                </div>
+              </article>
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+          <button
+            class="swiper-button-next"
+            type="button"
+            aria-label="Следующий"
+          ></button>
+          <button
+            class="swiper-button-prev"
+            type="button"
+            aria-label="Предыдущий"
+          ></button>
+        </div>
+      </div>
+      
     </div>
   </div>
 </section>
@@ -2190,42 +2691,109 @@
   </div>
 </section>
 
-        <section class="new-products tabs-hit ">
+        <section class="peculiarities">
   <div class="container">
-    <h2 class="new-products__title">Новинки магазина</h2>
+    <h2 class="visually-hidden">Особенности</h2>
+
+    <ul class="peculiarities__list">
+      <li class="peculiarities__item">
+        <div class="peculiarities__icon">
+          <img src="images/icons/tape-measure.svg" alt="" />
+        </div>
+        <div class="peculiarities__text">
+          <p>
+            Бесплатный выезд на замер <br>
+            при оформлении заказа
+          </p>
+        </div>
+        <a class="peculiarities__link" href="#">заказать замер </a>
+      </li>
+      <li class="peculiarities__item">
+        <div class="peculiarities__icon">
+          <img src="images/icons/kitchen.svg" alt="" />
+        </div>
+        <div class="peculiarities__text">
+          <p>
+            Бесплатный <br />
+            дизайн - проект кухни
+          </p>
+        </div>
+        <a class="peculiarities__link" href="#">заказать дизайн - проект</a>
+      </li>
+      <li class="peculiarities__item">
+        <div class="peculiarities__icon">
+          <img src="images/icons/towels.svg" alt="" />
+        </div>
+        <div class="peculiarities__text">
+          <p>
+            Компановка и помощь <br />
+            в подборе тканей
+          </p>
+        </div>
+        <a class="peculiarities__link" href="#">попросить помочь</a>
+      </li>
+      <li class="peculiarities__item">
+        <div class="peculiarities__icon">
+          <img src="images/icons/wardrobe.svg" alt="" />
+        </div>
+        <div class="peculiarities__text">
+          <p>
+            Бесплатные проекты <br />
+            шкафов, гардеробных
+          </p>
+        </div>
+        <a class="peculiarities__link" href="#">заказать проект</a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+        <section class="new-products tabs-hit">
+  <div class="container">
+    <h2 class="new-products__title">Хиты продаж</h2>
 
     <div class="new-products__tabs">
       <div class="new-products__top">
         <ul class="new-products__top-list">
           <li class="new-products__top-item">
-            <button class="new-products__top-btn tabs-hit-btn tabs-hit-btn--active">
+            <button
+              class="new-products__top-btn tabs-hit-btn tabs-hit-btn--active"
+            >
               Все
             </button>
           </li>
           <li class="new-products__top-item">
-            <button class="new-products__top-btn tabs-hit-btn">Скамейки</button>
+            <button class="new-products__top-btn tabs-hit-btn">Стенки</button>
           </li>
           <li class="new-products__top-item">
-            <button class="new-products__top-btn tabs-hit-btn">Урны</button>
+            <button class="new-products__top-btn tabs-hit-btn">Кровати</button>
           </li>
           <li class="new-products__top-item">
-            <button class="new-products__top-btn tabs-hit-btn">Остановки</button>
+            <button class="new-products__top-btn tabs-hit-btn">Диваны</button>
           </li>
           <li class="new-products__top-item">
-            <button class="new-products__top-btn tabs-hit-btn">Павильоны / навесы</button>
+            <button class="new-products__top-btn tabs-hit-btn">
+              Кухонные гарнитуры
+            </button>
+          </li>
+          <li class="new-products__top-item">
+            <button class="new-products__top-btn tabs-hit-btn">Тумбы</button>
+          </li>
+          <li class="new-products__top-item">
+            <button class="new-products__top-btn tabs-hit-btn">Столы</button>
           </li>
         </ul>
       </div>
     </div>
 
-    <div class="new-products__contents ">
+    <div class="new-products__contents">
       <div class="new-products__content tabs-hit-content active">
         <div class="new-products__slider swiper">
           <ul class="new-products__slides swiper-wrapper">
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/bestsellers/1.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -2245,23 +2813,21 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
                   <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
+                    Кровать бона Хитлайн
                   </h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
+                  <p class="product-card__price">15 890 ₽</p>
                 </div>
               </article>
             </li>
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/bestsellers/2.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -2281,23 +2847,21 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
                   <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
+                    Стенка Горка №4 (Бук темный)
                   </h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
+                  <p class="product-card__price">7 750 ₽</p>
                 </div>
               </article>
             </li>
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -2317,23 +2881,21 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
                   <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
+                    Диван Вика (Софос)
                   </h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
+                  <p class="product-card__price">34 800 ₽</p>
                 </div>
               </article>
             </li>
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -2353,23 +2915,21 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
                   <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
+                    Комод №5 (Бук темный)
                   </h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
+                  <p class="product-card__price">7 590 ₽</p>
                 </div>
               </article>
             </li>
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/bestsellers/1.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -2389,23 +2949,21 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
                   <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
+                    Кровать бона Хитлайн
                   </h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
+                  <p class="product-card__price">15 890 ₽</p>
                 </div>
               </article>
             </li>
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/bestsellers/2.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -2425,23 +2983,21 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
                   <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
+                    Стенка Горка №4 (Бук темный)
                   </h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
+                  <p class="product-card__price">7 750 ₽</p>
                 </div>
               </article>
             </li>
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -2461,76 +3017,21 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
                   <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
+                    Диван Вика (Софос)
                   </h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-          </ul>
-          <div class="swiper-pagination"></div>
-          <button
-            class="swiper-button-next"
-            type="button"
-            aria-label="Следующий"
-          ></button>
-          <button
-            class="swiper-button-prev"
-            type="button"
-            aria-label="Предыдущий"
-          ></button>
-        </div>
-      </div>
-      <div class="new-products__content tabs-hit-content">
-        <div class="new-products__slider swiper">
-          <ul class="new-products__slides swiper-wrapper">
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
+                  <p class="product-card__price">34 800 ₽</p>
                 </div>
               </article>
             </li>
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -2550,196 +3051,14 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
                   <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
+                    Комод №5 (Бук темный)
                   </h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
+                  <p class="product-card__price">7 590 ₽</p>
                 </div>
               </article>
             </li>
@@ -2763,7 +3082,7 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/bestsellers/1.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -2783,23 +3102,21 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
                   <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
+                    Кровать бона Хитлайн
                   </h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
+                  <p class="product-card__price">15 890 ₽</p>
                 </div>
               </article>
             </li>
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/bestsellers/2.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -2819,23 +3136,21 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
                   <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
+                    Стенка Горка №4 (Бук темный)
                   </h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
+                  <p class="product-card__price">7 750 ₽</p>
                 </div>
               </article>
             </li>
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -2855,23 +3170,21 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
                   <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
+                    Диван Вика (Софос)
                   </h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
+                  <p class="product-card__price">34 800 ₽</p>
                 </div>
               </article>
             </li>
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -2891,23 +3204,21 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
                   <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
+                    Комод №5 (Бук темный)
                   </h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
+                  <p class="product-card__price">7 590 ₽</p>
                 </div>
               </article>
             </li>
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/bestsellers/1.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -2927,23 +3238,21 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
                   <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
+                    Кровать бона Хитлайн
                   </h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
+                  <p class="product-card__price">15 890 ₽</p>
                 </div>
               </article>
             </li>
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/bestsellers/2.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -2963,23 +3272,21 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
                   <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
+                    Стенка Горка №4 (Бук темный)
                   </h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
+                  <p class="product-card__price">7 750 ₽</p>
                 </div>
               </article>
             </li>
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -2999,76 +3306,21 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
                   <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
+                    Диван Вика (Софос)
                   </h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-          </ul>
-          <div class="swiper-pagination"></div>
-          <button
-            class="swiper-button-next"
-            type="button"
-            aria-label="Следующий"
-          ></button>
-          <button
-            class="swiper-button-prev"
-            type="button"
-            aria-label="Предыдущий"
-          ></button>
-        </div>
-      </div>
-      <div class="new-products__content tabs-hit-content">
-        <div class="new-products__slider swiper">
-          <ul class="new-products__slides swiper-wrapper">
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
+                  <p class="product-card__price">34 800 ₽</p>
                 </div>
               </article>
             </li>
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -3088,196 +3340,14 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
                   <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
+                    Комод №5 (Бук темный)
                   </h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
+                  <p class="product-card__price">7 590 ₽</p>
                 </div>
               </article>
             </li>
@@ -3301,7 +3371,7 @@
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/bestsellers/1.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -3321,23 +3391,21 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
                   <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
+                    Кровать бона Хитлайн
                   </h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
+                  <p class="product-card__price">15 890 ₽</p>
                 </div>
               </article>
             </li>
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/bestsellers/2.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -3357,23 +3425,21 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
                   <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
+                    Стенка Горка №4 (Бук темный)
                   </h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
+                  <p class="product-card__price">7 750 ₽</p>
                 </div>
               </article>
             </li>
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -3393,23 +3459,21 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
                   <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
+                    Диван Вика (Софос)
                   </h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
+                  <p class="product-card__price">34 800 ₽</p>
                 </div>
               </article>
             </li>
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -3429,23 +3493,21 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
                   <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
+                    Комод №5 (Бук темный)
                   </h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
+                  <p class="product-card__price">7 590 ₽</p>
                 </div>
               </article>
             </li>
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/bestsellers/1.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -3465,23 +3527,21 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
                   <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
+                    Кровать бона Хитлайн
                   </h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
+                  <p class="product-card__price">15 890 ₽</p>
                 </div>
               </article>
             </li>
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/bestsellers/2.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -3501,23 +3561,21 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
                   <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
+                    Стенка Горка №4 (Бук темный)
                   </h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
+                  <p class="product-card__price">7 750 ₽</p>
                 </div>
               </article>
             </li>
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -3537,16 +3595,1204 @@
                       В корзину
                     </button>
                   </a>
-
-                  <div class="product-card__badge">35%</div>
                 </div>
 
                 <div class="product-card__body">
                   <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
+                    Диван Вика (Софос)
                   </h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
+                  <p class="product-card__price">34 800 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Комод №5 (Бук темный)
+                  </h3>
+
+                  <p class="product-card__price">7 590 ₽</p>
+                </div>
+              </article>
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+          <button
+            class="swiper-button-next"
+            type="button"
+            aria-label="Следующий"
+          ></button>
+          <button
+            class="swiper-button-prev"
+            type="button"
+            aria-label="Предыдущий"
+          ></button>
+        </div>
+      </div>
+      <div class="new-products__content tabs-hit-content">
+        <div class="new-products__slider swiper">
+          <ul class="new-products__slides swiper-wrapper">
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/1.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Кровать бона Хитлайн
+                  </h3>
+
+                  <p class="product-card__price">15 890 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/2.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Стенка Горка №4 (Бук темный)
+                  </h3>
+
+                  <p class="product-card__price">7 750 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Диван Вика (Софос)
+                  </h3>
+
+                  <p class="product-card__price">34 800 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Комод №5 (Бук темный)
+                  </h3>
+
+                  <p class="product-card__price">7 590 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/1.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Кровать бона Хитлайн
+                  </h3>
+
+                  <p class="product-card__price">15 890 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/2.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Стенка Горка №4 (Бук темный)
+                  </h3>
+
+                  <p class="product-card__price">7 750 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Диван Вика (Софос)
+                  </h3>
+
+                  <p class="product-card__price">34 800 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Комод №5 (Бук темный)
+                  </h3>
+
+                  <p class="product-card__price">7 590 ₽</p>
+                </div>
+              </article>
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+          <button
+            class="swiper-button-next"
+            type="button"
+            aria-label="Следующий"
+          ></button>
+          <button
+            class="swiper-button-prev"
+            type="button"
+            aria-label="Предыдущий"
+          ></button>
+        </div>
+      </div>
+      <div class="new-products__content tabs-hit-content">
+        <div class="new-products__slider swiper">
+          <ul class="new-products__slides swiper-wrapper">
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/1.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Кровать бона Хитлайн
+                  </h3>
+
+                  <p class="product-card__price">15 890 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/2.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Стенка Горка №4 (Бук темный)
+                  </h3>
+
+                  <p class="product-card__price">7 750 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Диван Вика (Софос)
+                  </h3>
+
+                  <p class="product-card__price">34 800 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Комод №5 (Бук темный)
+                  </h3>
+
+                  <p class="product-card__price">7 590 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/1.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Кровать бона Хитлайн
+                  </h3>
+
+                  <p class="product-card__price">15 890 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/2.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Стенка Горка №4 (Бук темный)
+                  </h3>
+
+                  <p class="product-card__price">7 750 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Диван Вика (Софос)
+                  </h3>
+
+                  <p class="product-card__price">34 800 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Комод №5 (Бук темный)
+                  </h3>
+
+                  <p class="product-card__price">7 590 ₽</p>
+                </div>
+              </article>
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+          <button
+            class="swiper-button-next"
+            type="button"
+            aria-label="Следующий"
+          ></button>
+          <button
+            class="swiper-button-prev"
+            type="button"
+            aria-label="Предыдущий"
+          ></button>
+        </div>
+      </div>
+      <div class="new-products__content tabs-hit-content">
+        <div class="new-products__slider swiper">
+          <ul class="new-products__slides swiper-wrapper">
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/1.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Кровать бона Хитлайн
+                  </h3>
+
+                  <p class="product-card__price">15 890 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/2.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Стенка Горка №4 (Бук темный)
+                  </h3>
+
+                  <p class="product-card__price">7 750 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Диван Вика (Софос)
+                  </h3>
+
+                  <p class="product-card__price">34 800 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Комод №5 (Бук темный)
+                  </h3>
+
+                  <p class="product-card__price">7 590 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/1.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Кровать бона Хитлайн
+                  </h3>
+
+                  <p class="product-card__price">15 890 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/2.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Стенка Горка №4 (Бук темный)
+                  </h3>
+
+                  <p class="product-card__price">7 750 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Диван Вика (Софос)
+                  </h3>
+
+                  <p class="product-card__price">34 800 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Комод №5 (Бук темный)
+                  </h3>
+
+                  <p class="product-card__price">7 590 ₽</p>
+                </div>
+              </article>
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+          <button
+            class="swiper-button-next"
+            type="button"
+            aria-label="Следующий"
+          ></button>
+          <button
+            class="swiper-button-prev"
+            type="button"
+            aria-label="Предыдущий"
+          ></button>
+        </div>
+      </div>
+      <div class="new-products__content tabs-hit-content">
+        <div class="new-products__slider swiper">
+          <ul class="new-products__slides swiper-wrapper">
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/1.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Кровать бона Хитлайн
+                  </h3>
+
+                  <p class="product-card__price">15 890 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/2.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Стенка Горка №4 (Бук темный)
+                  </h3>
+
+                  <p class="product-card__price">7 750 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Диван Вика (Софос)
+                  </h3>
+
+                  <p class="product-card__price">34 800 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Комод №5 (Бук темный)
+                  </h3>
+
+                  <p class="product-card__price">7 590 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/1.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Кровать бона Хитлайн
+                  </h3>
+
+                  <p class="product-card__price">15 890 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/2.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Стенка Горка №4 (Бук темный)
+                  </h3>
+
+                  <p class="product-card__price">7 750 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Диван Вика (Софос)
+                  </h3>
+
+                  <p class="product-card__price">34 800 ₽</p>
+                </div>
+              </article>
+            </li>
+            <li class="new-products__slide swiper-slide">
+              <article class="product-card">
+                <div class="product-card__top">
+                  <img src="images/content/bestsellers/3.png" alt="Диван" />
+
+                  <a class="product-card__btns" href="#">
+                    <button
+                      class="product-card__btn product-card__btn--view"
+                      type="button"
+                      aria-label="Посмотреть"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--favorite"
+                      type="button"
+                      aria-label="В избранное"
+                    ></button>
+                    <button
+                      class="product-card__btn product-card__btn--cart"
+                      type="button"
+                    >
+                      В корзину
+                    </button>
+                  </a>
+                </div>
+
+                <div class="product-card__body">
+                  <h3 class="product-card__title">
+                    Комод №5 (Бук темный)
+                  </h3>
+
+                  <p class="product-card__price">7 590 ₽</p>
                 </div>
               </article>
             </li>
@@ -3590,40 +4836,60 @@
 
         <section class="new-products tabs-discount">
   <div class="container">
-    <h2 class="new-products__title">Новинки магазина</h2>
+    <h2 class="new-products__title">Распродажа</h2>
 
     <div class="new-products__tabs">
       <div class="new-products__top">
         <ul class="new-products__top-list">
           <li class="new-products__top-item">
-            <button class="new-products__top-btn tabs-discount-btn tabs-discount-btn--active">
+            <button
+              class="new-products__top-btn tabs-discount-btn tabs-discount-btn--active"
+            >
               Все
             </button>
           </li>
           <li class="new-products__top-item">
-            <button class="new-products__top-btn tabs-discount-btn">Скамейки</button>
+            <button class="new-products__top-btn tabs-discount-btn">
+              Стенки
+            </button>
           </li>
           <li class="new-products__top-item">
-            <button class="new-products__top-btn tabs-discount-btn">Урны</button>
+            <button class="new-products__top-btn tabs-discount-btn">
+              Кровати
+            </button>
           </li>
           <li class="new-products__top-item">
-            <button class="new-products__top-btn tabs-discount-btn">Остановки</button>
+            <button class="new-products__top-btn tabs-discount-btn">
+              Диваны
+            </button>
           </li>
           <li class="new-products__top-item">
-            <button class="new-products__top-btn tabs-discount-btn">Павильоны / навесы</button>
+            <button class="new-products__top-btn tabs-discount-btn">
+              Кухонные гарнитуры
+            </button>
+          </li>
+          <li class="new-products__top-item">
+            <button class="new-products__top-btn tabs-discount-btn">
+              Тумбы
+            </button>
+          </li>
+          <li class="new-products__top-item">
+            <button class="new-products__top-btn tabs-discount-btn">
+              Столы
+            </button>
           </li>
         </ul>
       </div>
     </div>
 
-    <div class="new-products__contents ">
+    <div class="new-products__contents">
       <div class="new-products__content tabs-discount-content active">
         <div class="new-products__slider swiper">
           <ul class="new-products__slides swiper-wrapper">
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/sale/1.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -3648,18 +4914,23 @@
                 </div>
 
                 <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
+                  <h3 class="product-card__title">Стенка Интеро Горизонт</h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
+                  <div class="product-card__prices">
+                    <p class="product-card__price product-card__price--new">
+                      15 890 ₽
+                    </p>
+                    <p class="product-card__price product-card__price--old">
+                      25 990
+                    </p>
+                  </div>
                 </div>
               </article>
             </li>
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/sale/2.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -3684,18 +4955,23 @@
                 </div>
 
                 <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
+                  <h3 class="product-card__title">Тумба Руно Runo комфорт</h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
+                  <div class="product-card__prices">
+                    <p class="product-card__price product-card__price--new">
+                      15 890 ₽
+                    </p>
+                    <p class="product-card__price product-card__price--old">
+                      25 990
+                    </p>
+                  </div>
                 </div>
               </article>
             </li>
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/sale/3.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -3721,17 +4997,24 @@
 
                 <div class="product-card__body">
                   <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
+                    Стол журнальный Олимп Сатурн
                   </h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
+                  <div class="product-card__prices">
+                    <p class="product-card__price product-card__price--new">
+                      15 890 ₽
+                    </p>
+                    <p class="product-card__price product-card__price--old">
+                      25 990
+                    </p>
+                  </div>
                 </div>
               </article>
             </li>
             <li class="new-products__slide swiper-slide">
               <article class="product-card">
                 <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
+                  <img src="images/content/sale/3.png" alt="Диван" />
 
                   <a class="product-card__btns" href="#">
                     <button
@@ -3756,119 +5039,16 @@
                 </div>
 
                 <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
+                  <h3 class="product-card__title">Кресло Julia grup ротанг</h3>
 
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
-                </div>
-              </article>
-            </li>
-            <li class="new-products__slide swiper-slide">
-              <article class="product-card">
-                <div class="product-card__top">
-                  <img src="images/content/sofas/1.png" alt="Диван" />
-
-                  <a class="product-card__btns" href="#">
-                    <button
-                      class="product-card__btn product-card__btn--view"
-                      type="button"
-                      aria-label="Посмотреть"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--favorite"
-                      type="button"
-                      aria-label="В избранное"
-                    ></button>
-                    <button
-                      class="product-card__btn product-card__btn--cart"
-                      type="button"
-                    >
-                      В корзину
-                    </button>
-                  </a>
-
-                  <div class="product-card__badge">35%</div>
-                </div>
-
-                <div class="product-card__body">
-                  <h3 class="product-card__title">
-                    Модульный диван Турин (НПБ)
-                  </h3>
-
-                  <p class="product-card__price">53 480 ₽</p>
+                  <div class="product-card__prices">
+                    <p class="product-card__price product-card__price--new">
+                      15 890 ₽
+                    </p>
+                    <p class="product-card__price product-card__price--old">
+                      25 990
+                    </p>
+                  </div>
                 </div>
               </article>
             </li>
@@ -5054,7 +6234,7 @@
             Вами в ближайшее время.
           </p>
         </div>
-        <button class="descr__btn btn" type="button">Заказать звонок</button>
+        <button class="descr__btn btn btn-call" type="button">Заказать звонок</button>
       </div>
     </div>
   </div>
@@ -5402,11 +6582,3 @@
 
   </body>
 </html>
-
-<!-- <label class="checkbox">
-  <input class="checkbox__input" type="checkbox" required />
-  <span class="checkbox__box"></span>
-  <span class="checkbox__text">
-    Соглашаюсь с<a href="#"> обработкой персональных данных</a>
-  </span> 
-</label> -->

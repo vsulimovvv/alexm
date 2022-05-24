@@ -28,4 +28,14 @@
       gap: 10px;
     }
   }
+
+  &__side {
+    @include breakpointsMaxW($bp-991) {
+      display: none;
+    }
+  }
+
+  .side__control {
+    border: none;
+  }
 }

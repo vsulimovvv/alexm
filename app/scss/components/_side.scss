@@ -4,7 +4,7 @@
   margin-bottom: 40px;
 
   @include breakpointsMaxW($bp-991) {
-    display: none;
+    // display: none;
   }
 
   &__top {

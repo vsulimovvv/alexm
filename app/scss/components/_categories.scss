@@ -33,6 +33,36 @@
     }
   }
 
+  &__side {
+    @include breakpointsMaxW($bp-991) {
+      position: absolute;
+      display: block !important;
+      top: 0;
+      left: 0;
+      z-index: 10;
+      background-color: var(--color-white);
+      height: 100%;
+      transform: translateX(-100%);
+      transition: 400ms ease;
+      width: 80%;
+
+      &.active{
+        transform: translateX(0)
+      }
+    }
+  }
+
+  &__filter {
+    @include maskImage(url('../images/icons/filter.svg'), contain);
+    background-color: var(--color-dark);
+    width: 20px;
+    height: 20px;
+    display: none;
+    @include breakpointsMaxW($bp-991){
+      display: block;
+    }
+  }
+
   &__title {
     @include fz35();
   }

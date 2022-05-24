@@ -5,7 +5,12 @@
   &__title {
     @include fz35();
     text-align: center;
+    font-weight: 500;
     @include adaptive-value('margin-bottom', 50, 30, 1);
+
+    &--left {
+      text-align: left;
+    }
   }
 
   &__top {
@@ -20,19 +25,18 @@
     &-list {
       display: flex;
       align-items: center;
-      max-width: 560px;
       width: 100%;
       margin: 0 auto;
-      gap: 20px;
-      justify-content: space-between;
+      gap: 45px;
+      justify-content: center;
 
       @include breakpointsMaxW($bp-991) {
-        gap: 15px;
-        min-width: 570px;
+        gap: 20px;
       }
-      @include breakpointsMaxW($bp-576) {
-        min-width: 450px;
-      }
+    }
+
+    &-item {
+      flex-shrink: 0;
     }
 
     &-btn {
@@ -86,23 +90,21 @@
   }
 
   &__contents {
-    // @include adaptive-value('margin-bottom', 60, 40, 1);
+    .swiper-pagination {
+      top: initial;
+      bottom: 0 !important;
+      max-width: 1240px;
+    }
   }
 
   &__slider {
-    padding-bottom: 40px;
+    @include adaptive-value('padding-bottom', 60, 40, 1);
     position: relative;
   }
 
   &__content {
     position: relative;
-
-    .swiper-pagination {
-      top: initial;
-      bottom: 0 !important;
-      max-width: 1240px;
-      // position: absolute;
-    }
+    display: none;
 
     .swiper-button-next {
       right: max(15px, calc((100% - 1240px) / 2));
@@ -148,6 +150,15 @@
   &--recommendations {
     .news-product__title {
       text-align: left;
+    }
+    .swiper-pagination {
+      top: initial;
+    }
+  }
+
+  &--similar {
+    .new-products__title {
+      text-align-last: left;
     }
     .swiper-pagination {
       top: initial;

@@ -439,5 +439,23 @@ input[type='file'] {
     outline: transparent;
     font-size: 15px;
   }
+}
 
+.rating {
+  &__stars {
+    display: flex;
+    align-items: center;
+  }
+
+  &__star {
+    position: relative;
+    @include maskImage(url('../images/icons/star.svg'), contain);
+    width: 15px;
+    height: 15px;
+    background-color: #fac630;
+    
+    &--disabled{
+      background-color: #c1c1c1;
+    }
+  }
 }

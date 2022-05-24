@@ -34,9 +34,48 @@
   </head>
 
   <body>
-    
+    <div class="popup popup--call">
+  <div class="popup__container">
+    <button class="popup__close" type="button" aria-label="Закрыть">
+      <svg width="15" height="15">
+        <use xlink:href="images/sprite.svg#close"></use>
+      </svg>
+    </button>
+    <div class="popup__wrapper">
+      <h2 class="popup__title">Заказать звонок</h2>
+      <div class="popup__text">
+        <p>Оставьте ваши данные и мы вам перезвоним.</p>
+      </div>
 
-    <h1 class="visually-hidden">Главная</h1>
+      <form class="price-list__form form-submit">
+        <label class="form-submit__group">
+          <input class="form-submit__input" type="text" placeholder="ФИО" />
+        </label>
+        <label class="form-submit__group">
+          <input class="form-submit__input" type="text" placeholder="E-mail" />
+        </label>
+        <label class="form-submit__group">
+          <input class="form-submit__input" type="tel" placeholder="+7 (999) 999-99-99" />
+        </label>
+   
+
+        <label class="checkbox">
+          <input class="checkbox__input" type="checkbox" checked />
+          <span class="checkbox__box"></span>
+          <span class="checkbox__text">
+            Нажимая на кнопку отправить я соглашаюсь с
+            <a href="#">политикой конфиденциальности</a>
+          </span>
+        </label>
+
+        <button class="form-submit__btn btn" type="button">Заказать звонок</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+    <h1 class="visually-hidden">Новости</h1>
 
     <div class="site-wrapper">
       <header class="header">
@@ -68,24 +107,40 @@
           <div class="mobile-menu-box__content accordion__content">
             <ul class="mobile-menu-box__list">
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Мезотерапия</a>
+                <a class="mobile-menu-box__link" href="#">Диваны</a>
               </li>
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Уходовая косметика</a>
+                <a class="mobile-menu-box__link" href="#">Кресла</a>
               </li>
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#"
-                  >Косметологические аппараты</a
-                >
+                <a class="mobile-menu-box__link" href="#">Столы и стулья</a>
               </li>
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Прочее</a>
+                <a class="mobile-menu-box__link" href="#">Мебель для сада</a>
               </li>
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Бренды</a>
+                <a class="mobile-menu-box__link" href="#">Кровати</a>
               </li>
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Уцененные товары</a>
+                <a class="mobile-menu-box__link" href="#">Модульные гостиные</a>
+              </li>
+              <li class="mobile-menu-box__item">
+                <a class="mobile-menu-box__link" href="#">Стенки</a>
+              </li>
+              <li class="mobile-menu-box__item">
+                <a class="mobile-menu-box__link" href="#">Шкафы</a>
+              </li>
+              <li class="mobile-menu-box__item">
+                <a class="mobile-menu-box__link" href="#">Кухни</a>
+              </li>
+              <li class="mobile-menu-box__item">
+                <a class="mobile-menu-box__link" href="#">Тумбы и комоды</a>
+              </li>
+              <li class="mobile-menu-box__item">
+                <a class="mobile-menu-box__link" href="#">Мебель для ванной</a>
+              </li>
+              <li class="mobile-menu-box__item">
+                <a class="mobile-menu-box__link" href="#">Прихожие</a>
               </li>
             </ul>
           </div>
@@ -109,10 +164,10 @@
           <div class="mobile-menu-box__content accordion__content">
             <ul class="mobile-menu-box__list">
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Доставка</a>
+                <a class="mobile-menu-box__link" href="#">      Мягкая мебель</a>
               </li>
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Оплата</a>
+                <a class="mobile-menu-box__link" href="#">      Мягкая мебель</a>
               </li>
             </ul>
           </div>
@@ -130,10 +185,10 @@
           <div class="mobile-menu-box__content accordion__content">
             <ul class="mobile-menu-box__list">
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Статьи</a>
+                <a class="mobile-menu-box__link" href="#">Столы</a>
               </li>
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Обзоры</a>
+                <a class="mobile-menu-box__link" href="#">Столы</a>
               </li>
             </ul>
           </div>
@@ -151,16 +206,16 @@
           <div class="mobile-menu-box__content accordion__content">
             <ul class="mobile-menu-box__list">
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">О компанию</a>
+                <a class="mobile-menu-box__link" href="#">Стулья</a>
               </li>
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Новости</a>
+                <a class="mobile-menu-box__link" href="#">Стулья</a>
               </li>
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Отзывы</a>
+                <a class="mobile-menu-box__link" href="#">Стулья</a>
               </li>
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Сертификаты</a>
+                <a class="mobile-menu-box__link" href="#">Стулья</a>
               </li>
             </ul>
           </div>
@@ -178,16 +233,16 @@
           <div class="mobile-menu-box__content accordion__content">
             <ul class="mobile-menu-box__list">
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Скачать прайс-лист</a>
+                <a class="mobile-menu-box__link" href="#">Мебель для сада</a>
               </li>
               <li class="mobile-menu-box__item">
                 <a class="mobile-menu-box__link" href="#"
-                  >Запросить прайс-лист для косметолога</a
+                  >Мебель для сада</a
                 >
               </li>
               <li class="mobile-menu-box__item">
                 <a class="mobile-menu-box__link" href="#"
-                  >Запросить оптовый прайс-лист</a
+                  >Мебель для сада</a
                 >
               </li>
             </ul>
@@ -206,10 +261,10 @@
           <div class="mobile-menu-box__content accordion__content">
             <ul class="mobile-menu-box__list">
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Адрес</a>
+                <a class="mobile-menu-box__link" href="#">Посуда</a>
               </li>
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Телефон</a>
+                <a class="mobile-menu-box__link" href="#">Посуда</a>
               </li>
             </ul>
           </div>
@@ -227,10 +282,10 @@
           <div class="mobile-menu-box__content accordion__content">
             <ul class="mobile-menu-box__list">
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Адрес</a>
+                <a class="mobile-menu-box__link" href="#">Для детской</a>
               </li>
               <li class="mobile-menu-box__item">
-                <a class="mobile-menu-box__link" href="#">Телефон</a>
+                <a class="mobile-menu-box__link" href="#">Для детской</a>
               </li>
             </ul>
           </div>
@@ -458,24 +513,40 @@
                 <div class="dropmenu dropmenu--left">
                   <ul class="dropmenu__list">
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#">Мезотерапия</a>
+                      <a class="dropmenu__link" href="#">Диваны</a>
                     </li>
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#">Уходовая косметика</a>
+                      <a class="dropmenu__link" href="#">Кресла</a>
                     </li>
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#"
-                        >Косметологические аппараты</a
-                      >
+                      <a class="dropmenu__link" href="#">Столы и стулья</a>
                     </li>
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#">Прочее</a>
+                      <a class="dropmenu__link" href="#">Мебель для сада</a>
                     </li>
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#">Бренды</a>
+                      <a class="dropmenu__link" href="#">Кровати</a>
                     </li>
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#">Уцененные товары</a>
+                      <a class="dropmenu__link" href="#">Модульные гостиные</a>
+                    </li>
+                    <li class="dropmenu__item">
+                      <a class="dropmenu__link" href="#">Стенки</a>
+                    </li>
+                    <li class="dropmenu__item">
+                      <a class="dropmenu__link" href="#">Шкафы</a>
+                    </li>
+                    <li class="dropmenu__item">
+                      <a class="dropmenu__link" href="#">Кухни</a>
+                    </li>
+                    <li class="dropmenu__item">
+                      <a class="dropmenu__link" href="#">Тумбы и комоды</a>
+                    </li>
+                    <li class="dropmenu__item">
+                      <a class="dropmenu__link" href="#">Мебель для ванной</a>
+                    </li>
+                    <li class="dropmenu__item">
+                      <a class="dropmenu__link" href="#">Прихожие</a>
                     </li>
                   </ul>
                 </div>
@@ -494,10 +565,10 @@
                 <div class="dropmenu">
                   <ul class="dropmenu__list">
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#">Доставка</a>
+                      <a class="dropmenu__link" href="#"> Мягкая мебель</a>
                     </li>
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#">Оплата</a>
+                      <a class="dropmenu__link" href="#"> Мягкая мебель</a>
                     </li>
                   </ul>
                 </div>
@@ -546,11 +617,6 @@
                     <li class="dropmenu__item">
                       <a class="dropmenu__link" href="#"> Мебель для сада </a>
                     </li>
-                    <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#">
-                        Запросить оптовый прайс-лист
-                      </a>
-                    </li>
                   </ul>
                 </div>
               </li>
@@ -560,17 +626,13 @@
                 <div class="dropmenu dropmenu--right">
                   <ul class="dropmenu__list">
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#">Адреса и телефоны</a>
+                      <a class="dropmenu__link" href="#">Посуда</a>
                     </li>
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#"
-                        >Техническая поддержка</a
-                      >
+                      <a class="dropmenu__link" href="#">Посуда</a>
                     </li>
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#"
-                        >Мы в социальных сетях</a
-                      >
+                      <a class="dropmenu__link" href="#">Посуда</a>
                     </li>
                   </ul>
                 </div>
@@ -583,17 +645,13 @@
                 <div class="dropmenu dropmenu--right">
                   <ul class="dropmenu__list">
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#">Адреса и телефоны</a>
+                      <a class="dropmenu__link" href="#">Для детской</a>
                     </li>
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#"
-                        >Техническая поддержка</a
-                      >
+                      <a class="dropmenu__link" href="#">Для детской</a>
                     </li>
                     <li class="dropmenu__item">
-                      <a class="dropmenu__link" href="#"
-                        >Мы в социальных сетях</a
-                      >
+                      <a class="dropmenu__link" href="#">Для детской</a>
                     </li>
                   </ul>
                 </div>
@@ -1032,11 +1090,3 @@
 
   </body>
 </html>
-
-<!-- <label class="checkbox">
-  <input class="checkbox__input" type="checkbox" required />
-  <span class="checkbox__box"></span>
-  <span class="checkbox__text">
-    Соглашаюсь с<a href="#"> обработкой персональных данных</a>
-  </span> 
-</label> -->
